@@ -110,11 +110,6 @@ ENV/
 env.bak/
 venv.bak/
 
-# Fixtures do desafio (fornecidas, não são trabalho deste repositório)
-monitoring/model.pkl
-monitoring/batch_records.json
-datasets/
-
 # Spyder project settings
 .spyderproject
 .spyproject

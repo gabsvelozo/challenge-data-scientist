@@ -18,13 +18,13 @@ monitoring/
 │   │   ├── model.py                  # carregamento e scoring do model.pkl
 │   │   └── datasets.py               # leitura segura dos datasets locais
 │   └── requirements.txt
-├── model.pkl                         # modelo pré-treinado (fornecido pelo desafio, fora do repo)
-├── batch_records.json                # lote de exemplo pro endpoint de performance (fornecido, fora do repo)
+├── model.pkl                         # modelo pré-treinado (fornecido pelo desafio)
+├── batch_records.json                # lote de exemplo pro endpoint de performance (fornecido)
 ├── environment.yml                   # alternativa via Conda
 └── notebook_demonstracao.ipynb       # chamadas reais aos dois endpoints + análise visual
 ```
 
-`model.pkl`, `batch_records.json` e os datasets em `datasets/credit_01/` (`train.gz`, `test.gz`, `oot.gz`) são fixtures do desafio original, não fazem parte deste repositório (ver `.gitignore`). Para rodar a API e o notebook localmente, copie esses arquivos do repositório original do desafio para os caminhos acima.
+`model.pkl`, `batch_records.json` e os datasets em `datasets/credit_01/` (`train.gz`, `test.gz`, `oot.gz`) são fixtures do desafio original, incluídas neste repositório pra ele rodar de forma autocontida (clonar e seguir "Como executar" abaixo, sem precisar buscar nada em outro lugar).
 
 ## Como executar
 
